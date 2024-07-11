@@ -1,0 +1,310 @@
+@charset "utf-8";
+
+body{
+    font-family: 'Noto Serif JP', serif;
+}
+
+
+/*ヘッダー*/
+
+header{
+    width: 100vw;
+    height: 500px;
+}
+
+
+
+
+/*ナビゲーション*/
+
+header nav{
+    width: 100vw;
+    height: 60px;
+    backdrop-filter: blur(50px);
+    display: flex;
+    position: relative;
+    position: fixed;
+    z-index: 10;
+}
+
+header nav .nav_img{
+    width: calc(100vw - 270px);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    
+}
+
+header nav .nav_img img{
+    width: 120px;
+    object-fit: contain;
+}
+
+header nav ul{
+    display: flex;
+    width: 270px;
+    height: 60px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+header nav ul li{
+    width: calc(270px/3);
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    color: white;
+}
+
+
+
+
+/*1stビュー*/
+
+header .view1{
+    width: 100vw;
+    height: 500px;
+    background-image: url("../img/sample_key.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+}
+
+header .view1 div{
+    position: absolute;
+    left: 10%;
+    top: 45%;
+}
+
+
+
+
+/*コンセプト*/
+
+.concept{
+    box-sizing: border-box;
+    margin-top: 70px;
+    padding: 0 10vw 0 10vw;
+    width: 100vw;
+    height: 550px;
+}
+
+.concept .concept1{
+    width: 100%;
+    height: 70px;
+    text-align: center;
+}
+
+.concept .concept2{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+}
+
+.concept .concept2 img{
+    width: 33vw;
+    margin-left: 3vw;
+}
+
+
+
+
+/*メニュー*/
+
+.menu_body{
+    width: 100vw;
+    height: 1000px;
+    box-sizing: border-box;
+    background-image: url("../img/sample_menu_bg.jpg");
+    background-size: cover;
+    background-position: 50% 100%;
+}
+
+.menu_body h1{
+    text-align: center;
+    padding-top: 40px;
+}
+
+/*Recommended*/
+.menu_body .menu1 h2{
+    text-align: center;
+    padding: 0;
+    margin-top: 70px;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 10px;
+}
+
+.recommend{
+    display: flex;
+    padding: 0 10vw 0 10vw;
+    width: 100%;
+    height: 300px;
+}
+
+.recommend .recommend1{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    margin-right: 10px;
+    background-color: white;
+}
+
+.recommend .recommend2{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    margin-left: 10px;
+    background-color: white;
+}
+
+.recommend img{
+    width: 55%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.recommend1 div , .recommend2 div{
+    width: 45%;
+    height: 100%;
+    padding: 0 15px 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.price1 , .price2{
+    text-align: end;
+}
+
+/*Coffee menu*/
+.menu2{
+    box-sizing: border-box;
+    width: 100vw;
+    margin-top: 60px;
+}
+
+.menu2 h2{
+    margin: 0;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 10px;
+}
+
+.coffeeMenu{
+    margin: 20px 10vw 0 10vw;
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:white;
+}
+
+.coffee1 , .coffee2 , .coffee3 , .coffee4{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.coffeeMenu img{
+    width: 20%;
+    height:fit-content;
+    border-radius: 50%;
+}
+
+.coffee1 div, .coffee2 div, .coffee3 div, .coffee4 div{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.coffeeMenu h3{
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+
+
+
+/*アクセス*/
+
+.acces{
+    box-sizing: border-box;
+    width: 100vw;
+    height: 1000px;
+    padding: 0 10vw 0 10vw;
+}
+
+.acces h1{
+    text-align: center;
+    padding-top: 60px;
+}
+
+.acces p{
+    text-align: center;
+}
+
+.acces dl{
+    display: flex;
+    margin: 20px 0 0 0;
+}
+
+.acces .acces_dl1{
+    margin-top: 40px;
+}
+
+.acces dt{
+    width: 80px;
+}
+
+iframe{
+    width: 100%;
+    height: 600px;
+    margin-top: 10px;
+}
+
+
+
+
+/*フッター*/
+
+footer{
+    background-color: #251e19;
+    width: 100vw;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer ul{
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+footer li{
+    color: white;
+    width: 70px;
+}
+
+footer img{
+    width: 70px;
+    object-fit: contain;
+}
+
+footer p{
+    color: white;
+    font-size: 13px;
+}
+
+
+
+
+
