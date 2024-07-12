@@ -1,13 +1,14 @@
 @charset "utf-8";
 
-body{
+
+body {
     font-family: 'Noto Serif JP', serif;
 }
 
 
 /*ヘッダー*/
 
-header{
+header {
     width: 100vw;
     height: 500px;
 }
@@ -17,7 +18,7 @@ header{
 
 /*ナビゲーション*/
 
-header nav{
+header nav {
     width: 100vw;
     height: 60px;
     backdrop-filter: blur(50px);
@@ -27,20 +28,20 @@ header nav{
     z-index: 10;
 }
 
-header nav .nav_img{
+header nav .nav_img {
     width: calc(100vw - 270px);
     height: 60px;
     display: flex;
     align-items: center;
-    
+
 }
 
-header nav .nav_img img{
+header nav .nav_img img {
     width: 120px;
     object-fit: contain;
 }
 
-header nav ul{
+header nav ul {
     display: flex;
     width: 270px;
     height: 60px;
@@ -49,7 +50,7 @@ header nav ul{
     top: 0px;
 }
 
-header nav ul li{
+header nav ul li {
     width: calc(270px/3);
     height: 60px;
     text-align: center;
@@ -62,7 +63,7 @@ header nav ul li{
 
 /*1stビュー*/
 
-header .view1{
+header .view1 {
     width: 100vw;
     height: 500px;
     background-image: url("../img/sample_key.jpg");
@@ -71,7 +72,7 @@ header .view1{
     position: relative;
 }
 
-header .view1 div{
+header .view1 div {
     position: absolute;
     left: 10%;
     top: 45%;
@@ -82,7 +83,7 @@ header .view1 div{
 
 /*コンセプト*/
 
-.concept{
+.concept {
     box-sizing: border-box;
     margin-top: 70px;
     padding: 0 10vw 0 10vw;
@@ -90,19 +91,19 @@ header .view1 div{
     height: 550px;
 }
 
-.concept .concept1{
+.concept .concept1 {
     width: 100%;
     height: 70px;
     text-align: center;
 }
 
-.concept .concept2{
+.concept .concept2 {
     margin-top: 40px;
     width: 100%;
     display: flex;
 }
 
-.concept .concept2 img{
+.concept .concept2 img {
     width: 33vw;
     margin-left: 3vw;
 }
@@ -112,7 +113,7 @@ header .view1 div{
 
 /*メニュー*/
 
-.menu_body{
+.menu_body {
     width: 100vw;
     height: 1000px;
     box-sizing: border-box;
@@ -121,13 +122,13 @@ header .view1 div{
     background-position: 50% 100%;
 }
 
-.menu_body h1{
+.menu_body h1 {
     text-align: center;
     padding-top: 40px;
 }
 
 /*Recommended*/
-.menu_body .menu1 h2{
+.menu_body .menu1 h2 {
     text-align: center;
     padding: 0;
     margin-top: 70px;
@@ -136,14 +137,14 @@ header .view1 div{
     text-underline-offset: 10px;
 }
 
-.recommend{
+.recommend {
     display: flex;
     padding: 0 10vw 0 10vw;
     width: 100%;
     height: 300px;
 }
 
-.recommend .recommend1{
+.recommend .recommend1 {
     display: flex;
     width: 50%;
     height: 100%;
@@ -151,7 +152,7 @@ header .view1 div{
     background-color: white;
 }
 
-.recommend .recommend2{
+.recommend .recommend2 {
     display: flex;
     width: 50%;
     height: 100%;
@@ -159,13 +160,14 @@ header .view1 div{
     background-color: white;
 }
 
-.recommend img{
+.recommend img {
     width: 55%;
     height: 100%;
     object-fit: cover;
 }
 
-.recommend1 div , .recommend2 div{
+.recommend1 div,
+.recommend2 div {
     width: 45%;
     height: 100%;
     padding: 0 15px 0 15px;
@@ -174,18 +176,19 @@ header .view1 div{
     justify-content: space-between;
 }
 
-.price1 , .price2{
+.price1,
+.price2 {
     text-align: end;
 }
 
 /*Coffee menu*/
-.menu2{
+.menu2 {
     box-sizing: border-box;
     width: 100vw;
     margin-top: 60px;
 }
 
-.menu2 h2{
+.menu2 h2 {
     margin: 0;
     text-align: center;
     text-decoration: underline;
@@ -193,29 +196,35 @@ header .view1 div{
     text-underline-offset: 10px;
 }
 
-.coffeeMenu{
+.coffeeMenu {
     margin: 20px 10vw 0 10vw;
     height: 300px;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
-    background-color:white;
+    background-color: white;
 }
 
-.coffee1 , .coffee2 , .coffee3 , .coffee4{
+.coffee1,
+.coffee2,
+.coffee3,
+.coffee4 {
     width: 50%;
     height: 50%;
     display: flex;
     align-items: center;
 }
 
-.coffeeMenu img{
+.coffeeMenu img {
     width: 20%;
-    height:fit-content;
+    height: fit-content;
     border-radius: 50%;
 }
 
-.coffee1 div, .coffee2 div, .coffee3 div, .coffee4 div{
+.coffee1 div,
+.coffee2 div,
+.coffee3 div,
+.coffee4 div {
     width: 80%;
     height: 100%;
     display: flex;
@@ -224,7 +233,7 @@ header .view1 div{
     padding-left: 10px;
 }
 
-.coffeeMenu h3{
+.coffeeMenu h3 {
     margin: 0;
     padding-bottom: 15px;
 }
@@ -234,36 +243,36 @@ header .view1 div{
 
 /*アクセス*/
 
-.acces{
+.acces {
     box-sizing: border-box;
     width: 100vw;
     height: 1000px;
     padding: 0 10vw 0 10vw;
 }
 
-.acces h1{
+.acces h1 {
     text-align: center;
     padding-top: 60px;
 }
 
-.acces p{
+.acces p {
     text-align: center;
 }
 
-.acces dl{
+.acces dl {
     display: flex;
     margin: 20px 0 0 0;
 }
 
-.acces .acces_dl1{
+.acces .acces_dl1 {
     margin-top: 40px;
 }
 
-.acces dt{
+.acces dt {
     width: 80px;
 }
 
-iframe{
+iframe {
     width: 100%;
     height: 600px;
     margin-top: 10px;
@@ -274,7 +283,7 @@ iframe{
 
 /*フッター*/
 
-footer{
+footer {
     background-color: #251e19;
     width: 100vw;
     height: 75px;
@@ -283,28 +292,23 @@ footer{
     align-items: center;
 }
 
-footer ul{
+footer ul {
     height: 40px;
     display: flex;
     align-items: center;
 }
 
-footer li{
+footer li {
     color: white;
     width: 70px;
 }
 
-footer img{
+footer img {
     width: 70px;
     object-fit: contain;
 }
 
-footer p{
+footer p {
     color: white;
     font-size: 13px;
 }
-
-
-
-
-
