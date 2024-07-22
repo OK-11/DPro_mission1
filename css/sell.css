@@ -1,0 +1,174 @@
+@charset "UTF-8";
+
+body{
+  position: relative;
+  font-family: 'Noto Serif JP', serif;
+}
+
+
+
+/*ナビゲーション*/
+
+nav{
+  width: 100vw;
+  height: 250px;
+}
+
+.nav{
+  width: 100vw;
+  height: 60px;
+  display: flex;
+  position: fixed;
+  top: 0;
+
+  background: linear-gradient(90deg, white, black);
+}
+
+.nav div{
+  width: calc(100vw - 300px);
+  height: 100%;
+}
+
+.nav img{
+  height: 50px;
+  object-fit: contain;
+  padding-top: 5px;
+}
+
+.nav ul{
+  display: flex;
+}
+
+.nav li{
+  width: 100px;
+  height: 100%;
+  text-align: center;
+  line-height: 60px;
+  color: white;
+}
+
+nav h1{
+  text-align: center;
+  padding-top: 130px;
+}
+
+
+
+/*ラインナップ*/
+
+.lineup{
+  box-sizing: border-box;
+  padding: 0 10vw 0 10vw;
+  width: 100vw;
+  height: 600px;
+
+  background-image: url(../img/sample_menu_bg.jpg);
+  background-position-y: bottom;
+  background-size: cover;
+}
+
+.lineup h1{
+  text-align: center;
+  padding-top: 50px;
+  font-size: 24px;
+}
+
+.coffees{
+  margin-top: 15px;
+  width: 100%;
+  height: 300px;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.coffee{
+  width: 50%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.coffee h2{
+  font-size: 17px;
+}
+
+.coffee img{
+  width: 100px;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+.coffee div{
+  padding-left: 30px;
+}
+
+.postage h2{
+  margin-top: 20px;
+}
+
+
+
+/*ご注文*/
+
+.order{
+  box-sizing: border-box;
+  padding: 0 10vw 0 10vw;
+  width: 100%;
+  height: 400px;
+}
+
+.order h1{
+  padding-top: 70px;
+  font-size: 25px;
+}
+
+.order form{
+  margin-top: 20px;
+}
+
+.order .order_button{
+  margin-top: 20px;
+  width: 130px;
+  height: 45px;
+  background-color: rgba(127,136,182,1);
+  color: white;
+  border-radius: 5px;
+}
+
+
+
+/*フッター*/
+
+footer{
+  width: 100vw;
+  height: 80px;
+  background-color: #251e19;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer ul{
+  display: flex;
+  align-items: center;
+  width: 300px;
+}
+
+footer li{
+  color: white;
+  width: 25%;
+}
+
+footer img{
+  width: 100%;
+  object-fit: contain;
+}
+
+footer p{
+  margin-top: 5px;
+  color: white;
+  font-size: 10px;
+}
+
+

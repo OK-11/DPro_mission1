@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DIC coffee</title>
+  <link href="css/normalize.css"  rel="stylesheet">
+  <link href="css/sell.css"  rel="stylesheet">
+</head>
+<body>
+
+  <nav>
+    <div class="nav">
+      <div><img src="img/sample_logo_k.png"></div>
+      <ul>
+        <li>Home</li>
+        <li>Menu</li>
+        <li>Contact</li>
+      </ul>
+    </div>
+
+    <h1>コーヒー豆販売</h1>
+  </nav>
+
+
+  <article class="lineup">
+    <h1>ラインナップ</h1>
+
+    <section class="coffees">
+      <div class="coffee">
+        <div><img src="img/sample_cafe1.jpg"></div>
+        <div>
+          <h2>オリジナルブレンド200g</h2>
+          <p>500円</p>
+        </div>
+      </div>
+      <div class="coffee">
+        <div><img src="img/sample_cafe1.jpg"></div>
+        <div>
+          <h2>オリジナルブレンド500g</h2>
+          <p>900円</p>
+        </div>
+      </div>
+      <div class="coffee">
+        <div><img src="img/sample_cafe3.jpg"></div>
+        <div>
+          <h2>スペシャルブレンド200g</h2>
+          <p>700円</p>
+        </div>
+      </div>
+      <div class="coffee">
+        <div><img src="img/sample_cafe3.jpg"></div>
+        <div>
+          <h2>スペシャルブレンド500g</h2>
+          <p>1200円</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="postage">
+      <h2>送料のご案内</h2>
+      <ul>
+        <li>・合計金額が2000円未満で送料500円</li>
+        <li>・2000円以上で250円</li>
+        <li>・3000円以上で無料</li>
+      </ul>
+    </section>
+  </article>
+
+  <article class="order">
+    <h1>ご注文</h1>
+    <form>
+      <div>
+        <p>商品を選択してください</p>
+        <select required id="coffee">
+          <option hidden>選択してください</option>
+          <option value="coffee1">オリジナルブレンド200g 500円</option>
+          <option value="coffee2">オリジナルブレンド500g 900円</option>
+          <option value="coffee3">スペシャルブレンド200g 700円</option>
+          <option value="coffee4">スペシャルブレンド500g 1200円</option>
+        </select>
+  
+        <p>数量を選択してください</p>
+        <input type="number" min="1" max="5" id="number" required>
+      </div>
+      <input type="button" id="add_button" value="追加する" class="order_button">
+      <input type="button" id="total_button" value="合計金額" class="order_button">
+    </form>
+  </article>
+
+  <footer>
+    <ul>
+      <li>Home</li>
+      <li>Menu</li>
+      <li>Contact</li>
+      <li><img src="img/sample_logo_w.png"></li>
+    </ul>
+    <p>© DIVE INTO CODE Corp. All RIGHTS RESERVED.</p>
+  </footer>
+
+  <script src="javascript/sell.js"></script>
+</body>
+</html>
