@@ -21,7 +21,7 @@ header {
 header nav {
     width: 100vw;
     height: 60px;
-    backdrop-filter: blur(50px);
+    background: linear-gradient(90deg, white, black);
     display: flex;
     position: relative;
     position: fixed;
