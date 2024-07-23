@@ -1,0 +1,192 @@
+@charset "UTF-8";
+
+body{
+  position: relative;
+  font-family: 'Noto Serif JP', serif;
+}
+
+nav{
+  width: 100vw;
+  height: 70px;
+  display: flex;
+  background: linear-gradient(90deg, white, black);
+  position: fixed;
+  top: 0;
+}
+
+.div_img{
+  width: 80%;
+  height: 70px;
+}
+
+.div_img img{
+  padding-top: 10px;
+  height: 50px;
+  object-fit: contain;
+
+}
+
+.div_li{
+  width: 20%;
+  height: 70px;
+}
+
+.div_li ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+}
+
+.div_li li{
+  color: white;
+}
+
+
+
+
+
+main {
+  box-sizing: border-box;
+  padding: 150px 10vw 0 10vw;
+  width: 100%;
+  height: 850px;
+}
+
+main h1{
+  text-align: center;
+}
+
+main p{
+  text-align: center;
+}
+
+.contact_form{
+  margin-top: 60px;
+  width: 100%;
+  height: 550px;
+}
+
+.contact_form div{
+  width: 100%;
+  display: flex;
+}
+
+.contact_form label{
+  display: flex;
+  align-items: center;
+  width: calc(25% - 2px);
+  background-color: #beb9b7;
+  margin: 2px 2px 0 0;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+.contact_form input{
+  box-sizing: border-box;
+  display: inline-block;
+  width: 75%;
+  height: 50px;
+  margin-top: 2px;
+}
+
+.contact_form textarea{
+  box-sizing: border-box;
+  min-width: 75%;
+  min-height: 100px;
+  max-width: 75%;
+  max-height: 300px;
+  margin-top: 2px;
+}
+
+.contact_form .btn_div{
+  display: flex;
+  justify-content: center;
+}
+
+.contact_form .reset_btn , .contact_form .submit_btn{
+  width: 100px;
+  height: 35px;
+  margin-top: 50px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.contact_form .reset_btn{
+  margin-right: 5px;
+}
+
+.contact_form .submit_btn{
+  margin-left: 5px;
+  background-color: #9852a5;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+.contact_form p{
+  text-align: start;
+  color: #d14539;
+}
+
+.contact_form .confirm_email{
+  background-color: rgba(230,169,171,.5);
+  border: 1px  solid rgb(118, 118, 118);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+  width: 100vw;
+  height: 100px;
+  background-color: #251e19;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer ul{
+  margin-top: 7px;
+  display: flex;
+  justify-content:space-around;
+  width: 300px;
+}
+
+footer li{
+  width: 25%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+footer li img{
+  width: 90%;
+  object-fit: contain;
+}
+
+footer p{
+  color: white;
+  font-size: 10px;
+  margin-top: 10px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CONTACT</title>
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/contact.css" rel="stylesheet">
+</head>
+<body>
+  <nav>
+    <div class="div_img"><img src="img/sample_logo_k.png"></div>
+    <div class="div_li">
+      <ul>
+        <li>Home</li>
+        <li>Menu</li>
+        <li>CONTACT</li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <h1>CONTACT</h1>
+    <p>お問い合わせ</p>
+    <form class="contact_form" id="contact_form">
+      <div><label>お名前</label><input type="text"></div>
+      <div><label>Eメール</label><input type="email" id="email"></div>
+      <div><label>Eメール(確認)</label><input type="email" id="confirm_email"></div>
+      <!--<p>Eメールが一致しません</p>-->
+      <div id="key"><label>内容</label><textarea class=""></textarea></div>
+
+      <div class="btn_div"><input type="reset" class="reset_btn"><input type="submit" class="submit_btn" value="送信する" id="submit_btn"></div>
+    </form>
+  </main>
+
+  <footer>
+    <ul>
+      <li>Home</li>
+      <li>Menu</li>
+      <li>Contact</li>
+      <li><img src="img/sample_logo_w.png"></li>
+    </ul>
+    <p>© DIVE INTO CODE Corp. All RIGHTS RESERVED.</p>
+  </footer>
+
+  <script src="javascript/contact.js"></script>
+</body>
+</html>
